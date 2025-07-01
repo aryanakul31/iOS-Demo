@@ -71,4 +71,22 @@ Developed by Nakul Arya
 📧 aryanakul31@gmail.com  
 [LinkedIn](https://www.linkedin.com/in/your-linkedin) | [GitHub](https://github.com/your-username)
 
+---
+
+## 🖼️ Preview
+
+Below are previews of the app in action and its main screens:
+
+### 🎬 Animations
+
+| Animation 1 | Animation 2 | Animation 3 |
+|:-----------:|:-----------:|:-----------:|
+| ![Animation 1](Media/1.gif) | ![Animation 2](Media/2.gif) | ![Animation 3](Media/3.gif) |
+
+### 📱 Screenshots
+
+| Screen 1 | Screen 2 | Screen 3 | Screen 4 | Screen 5 |
+|:--------:|:--------:|:--------:|:--------:|:--------:|
+| ![Screen 1](Media/1.png) | ![Screen 2](Media/2.png) | ![Screen 3](Media/3.png) | ![Screen 4](Media/4.png) | ![Screen 5](Media/5.png) |
+
 --- 
