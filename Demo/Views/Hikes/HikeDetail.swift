@@ -37,6 +37,7 @@ struct HikeDetail: View {
                 }
             }
         }
+        .padding(.horizontal,15)
         .navigationTitle("Hike Details")
         .navigationBarTitleDisplayMode(.inline)
     }

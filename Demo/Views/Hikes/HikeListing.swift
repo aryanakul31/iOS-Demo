@@ -21,7 +21,7 @@ struct HikeListing: View {
                     NavigationLink{
                         HikeDetail(hike: hike)
                     } label: {
-                        HikeView(hike: hike)
+                        HikeView(hike: hike).padding(.horizontal,15)
                     }
                 }
             }.navigationTitle("Hike List")

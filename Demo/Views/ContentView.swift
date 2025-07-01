@@ -14,6 +14,7 @@ struct ContentView: View {
     enum Tab {
             case featured
             case list
+            case hikings
         }
     
     var body: some View {
@@ -25,6 +26,10 @@ struct ContentView: View {
                 .tabItem {
                             Label("List", systemImage: "list.bullet")
                             }.tag(Tab.list)
+            HikeListing()
+                .tabItem {
+                            Label("Hike", systemImage: "figure.run")
+                            }.tag(Tab.hikings)
         })
     }
 }
