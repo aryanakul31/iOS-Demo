@@ -7,7 +7,9 @@ A beginner-friendly iOS application built with **SwiftUI** to learn and showcase
 ## 🚀 Features
 
 - SwiftUI-based UI components
+- **Tabbed Navigation:** Two main tabs—Featured and List—allow users to switch between a curated set of highlights and a full list of landmarks
 - **Landmark List & Detail Views:** Explore a list of landmarks with detailed screens for each item, demonstrating navigation and data flow
+- **Category-Based Organization:** Landmarks are grouped and displayed by category (e.g., Lake, Mountain, River) in the Featured tab, with nested navigation for each group
 - **Hike Listing UI:** Browse a list of hikes, each with a trailing dropdown icon
 - **Interactive Chart Dropdown:** Tap the dropdown to select and display one of three charts for each hike: Elevation, Heart Rate, or Pace
 - **Custom Animations:** Smooth transitions and animated chart displays for an engaging user experience

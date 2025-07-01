@@ -9,9 +9,23 @@ import SwiftUI
 
 struct ContentView: View {
     
+    @State private var selectedTab : Tab = .featured
+    
+    enum Tab {
+            case featured
+            case list
+        }
+    
     var body: some View {
-        HikeListing()
-//        LandmarkList()
+        TabView(selection:$selectedTab,content: {
+            CategoryHome().tabItem {
+                Label("Featured", systemImage: "star")
+            }.tag(Tab.featured)
+            LandmarkList()
+                .tabItem {
+                            Label("List", systemImage: "list.bullet")
+                            }.tag(Tab.list)
+        })
     }
 }
 
