@@ -9,7 +9,7 @@ import SwiftUI
 
 struct FavoriteButton: View {
 
-    @State var isFavorite = false
+    @Binding var isFavorite :Bool
 
     var body: some View {
         Button {
@@ -27,5 +27,5 @@ struct FavoriteButton: View {
 }
 
 #Preview {
-    FavoriteButton(isFavorite: true)
+    FavoriteButton(isFavorite: .constant(true))
 }

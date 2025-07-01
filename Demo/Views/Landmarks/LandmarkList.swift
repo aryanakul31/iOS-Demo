@@ -31,16 +31,15 @@ struct LandmarkList: View {
                         LandmarkRow(land: landMark)
                     }
                 }
-                
                 .navigationTitle("Landmarks")
             }
         } detail: {
             Text("Select a land mark")
         }
-    
     }
 }
 
 #Preview {
-    LandmarkList()
+    let modelData = ModelData()
+    LandmarkList().environment(modelData)
 }

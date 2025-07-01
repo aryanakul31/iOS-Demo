@@ -7,7 +7,10 @@ A beginner-friendly iOS application built with **SwiftUI** to learn and showcase
 ## 🚀 Features
 
 - SwiftUI-based UI components
-- List and detail views for sample data (Landmarks)
+- **Landmark List & Detail Views:** Explore a list of landmarks with detailed screens for each item, demonstrating navigation and data flow
+- **Hike Listing UI:** Browse a list of hikes, each with a trailing dropdown icon
+- **Interactive Chart Dropdown:** Tap the dropdown to select and display one of three charts for each hike: Elevation, Heart Rate, or Pace
+- **Custom Animations:** Smooth transitions and animated chart displays for an engaging user experience
 - Custom UI elements (e.g., map, image, favorite button)
 - Local JSON data loading
 - MVVM architecture basics
